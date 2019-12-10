@@ -624,7 +624,7 @@ semilogy(1,term1_y_tropic,'-rx',2,term2_y_tropic,'-rx',3,term3_y_tropic,'-rx',4,
 xlim([0,6]);
 ylim([10^-9,10^3]);
 xticks([0 1 2 3 4 5 ]);
-xticklabels({'.','Dv/Dt','u^{2}tan\phi/a','v\omega/a','-1/\rho dp/dy','2\omegausin\phi','.'})
+xticklabels({'.','Dv/Dt','u^{2}tan\phi/a','v\omega/a','-1/\rho dp/dy','2\Omegausin\phi','.'})
 yticks([0 10^-9 10^-7 10^-5 10^-3 10^-1 10^1]);
 ylabel('Magnitude');
 title('Y Momentum Values');
